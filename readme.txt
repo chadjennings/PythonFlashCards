@@ -1,6 +1,6 @@
 readme.txt
 
-PythoneFlashCard.py
+PythonFlashCard.py
 Author:  Chad W. Jennings
 Date:  Jan-Feb 2017
 
