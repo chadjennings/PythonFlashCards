@@ -1,0 +1,47 @@
+Code/Command/Escape , Description
+\\ , Backslash (\)
+\' , Single-quote (')
+\" , Double-quote (")
+\a , ASCII bell (BEL)
+\b , ASCII backspace (BS)
+\f , ASCII formfeed (FF)
+\n , ASCII linefeed (LF)
+\N{name} ,Character named name in the Unicode database (Unicode only)
+\r , ASCII carriage return (CR)
+\t , ASCII horizontal tab (TAB)
+\uxxxx , Character with 16- bit hex value xxxx (Unicode only)
+\Uxxxxxxxx , Character with 32- bit hex value xxxxxxxx (Unicode only)
+\v , ASCII vertical tab (VT)
+\ooo  ,  Character with octal value oo
+pwd   ,  print working directory
+hostname  ,  my computer’s network name
+mkdir ,  make directory
+cd , change directory
+ls , list directory
+rmdir  , remove directory
+pushd ,  push directory
+popd  ,  pop directory
+cp , copy a file or directory
+cp , copy a file or directory
+mv , move a file or directory
+less ,   page through a file
+cat   ,  print the whole file
+xargs ,  execute arguments
+find  ,  find files
+grep  ,  find things inside files
+man   ,  read a manual page
+apropos  ,   find what man page is appropriate
+env   ,  look at your environment
+echo  ,  print some arguments
+export , export/set a new environment variable
+exit  ,  exit the shell
+sudo  ,  DANGER! become super user root DANGER!
+%s , print using str().  Don't include special characters
+%d , print as a decimal
+%f , print as a float
+%r , print using repr().  include all qutoes and special characters
+close , Closes the file. Like File->Save.. in your editor.
+read , Reads the contents of the file. You can assign the result to a variable.
+readline , Reads just one line of a text file.
+truncate , Empties the file. Watch out if you care about the file.
+write(stuff) , Writes stuff to the file.
