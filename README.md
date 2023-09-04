@@ -9,8 +9,8 @@ PythonFlashCard is a memory game using data from Learning Python the Hard Way (L
 
 # Instructions:
 - put PythonFlashCard.py and FlashCardLibrary.txt in the same directory
-- run the program by typing "python PythonFlashCard.py" into the command line.  Note:  Macs already have Python installed so this command should run right away.
-- Valid entries:
+- run the program by typing "python PythonFlashCard.py" into the command line.  
+# Valid entries:
 - quit  -  quits the program and returns you to the command line
 - help  -  displays the answer
 - or you can simply enter the reqeusted command
