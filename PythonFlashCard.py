@@ -2,7 +2,7 @@
 ##
 ##  PythonFlashCard.py
 ##  Chad W. Jennings
-##  5 Jan 2016
+##  5 Sept 2023
 ##
 ##############
 
@@ -10,7 +10,7 @@
 #   Python the Hard ##  way.  
 
 #   Flow 
-#   1. Define the material to learn in a csv with two columns
+#   1. Define the material to learn in a .txt file with two columns
 #       Command or String or Punctuation       ,     Description
 #   3. Load the file 
 #   4. Pick a random row from the array.
@@ -28,6 +28,7 @@
 #   Obvious extensions
 #       Add all the "index card items" from Learning Python the Hard Way
 #           to the library file, FlashCardLibrary.txt
+#       Change the text file to JSON
 
 # Import necessary methods
 from random import randint
@@ -53,8 +54,8 @@ continueFlag = True
 rightAnswer = False
 firstTime = True
 
-print "\n **********  Thanks for Playing **********"
-print "\nEnter the answer, type \"quit game\" to end or \"help me\" for the answer:  " 
+print("\n **********  Thanks for Playing **********")
+print("\nEnter the answer, type \"quit game\" to end or \"help me\" for the answer:  ") 
 
 while continueFlag:
     # if they got the right answer last time through or if this is the
@@ -73,24 +74,24 @@ while continueFlag:
         firstTime = False
     # else keep the same prompt and answer
 
-    print "\n", prompt, "\n"                # Print the question
+    print("\n", prompt, "\n")                # Print the question
 
     # Get and Process the answer
-    input = raw_input()                     
-    if answer in input:                     # if they got it right then acknowledge 
+    input_txt = input()                     
+    if answer in input_txt:                     # if they got it right then acknowledge 
         rightAnswer = True                  # and continue
         continueFlag = True                 
-        print "Good for you"
-    elif "quit" in input:                   # quit if desired
+        print("Good for you")
+    elif "quit" in input_txt:                   # quit if desired
         continueFlag = False
-    elif "help" in input:                   # help 'em out if requested
-        print line
+    elif "help" in input_txt:                   # help 'em out if requested
+        print(line)
         rightAnswer = False
     else:
-        print "Try Again"                   # keep going till you get the right answer
+        print("Try Again")                   # keep going till you get the right answer
         rightAnswer = False   
 
-print "\n **********  Thanks for Playing  **********\n"
+print=("\n **********  Thanks for Playing  **********\n")
 
 
 
