@@ -8,8 +8,9 @@ Date:  Jan-Feb 2017
 PythonFlashCard is a memory game using data from Learning Python the Hard Way (LPTHW).  The author adamantly recommends using flash cards to learn command line commands and python commands.  I knew that I'd lose the cards or just wouldn't keep them updated.  So, a good first project was to create a short script that would read a line from a library at random, show me the description of the command and then give me a small pat on the back if I entered the command correctly.
 
 # Instructions:
+- Install python3 by typing "python3" in the terminal and allowing install.
 - put PythonFlashCard.py and FlashCardLibrary.txt in the same directory
-- run the program by typing "python PythonFlashCard.py" into the command line.  
+- run the program by typing "python3 PythonFlashCard.py" into the command line.  
 # Valid entries:
 - quit  -  quits the program and returns you to the command line
 - help  -  displays the answer
